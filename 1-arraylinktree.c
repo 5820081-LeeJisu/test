@@ -44,13 +44,13 @@ void ArrayPostOrder(int* tree, int i, int index) {
 
 void ArrayOrders(int* tree, int index) {
 	printf("1. Array\n");
-	printf("ì „ìœ„ ìˆœíšŒ: ");
+	printf("ÀüÀ§ ¼øÈ¸: ");
 	ArrayPreOrder(tree, 0, index);
 	printf("\n");
-	printf("ì¤‘ìœ„ ìˆœíšŒ: ");
+	printf("ÁßÀ§ ¼øÈ¸: ");
 	ArrayInOrder(tree, 0, index);
 	printf("\n");
-	printf("í›„ìœ„ ìˆœíšŒ: ");
+	printf("ÈÄÀ§ ¼øÈ¸: ");
 	ArrayPostOrder(tree, 0, index);
 	printf("\n");
 }
@@ -112,13 +112,13 @@ void LinkPostOrder(TreeNode* root) {
 
 void LinkOrders(TreeNode* root) {
 	printf("2. Link\n");
-	printf("ì „ìœ„ ìˆœíšŒ: ");
+	printf("ÀüÀ§ ¼øÈ¸: ");
 	LinkPreOrder(root);
 	printf("\n");
-	printf("ì¤‘ìœ„ ìˆœíšŒ: ");
+	printf("ÁßÀ§ ¼øÈ¸: ");
 	LinkInOrder(root);
 	printf("\n");
-	printf("í›„ìœ„ ìˆœíšŒ: ");
+	printf("ÈÄÀ§ ¼øÈ¸: ");
 	LinkPostOrder(root);
 	printf("\n");
 }
