@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SIZE 15 
 typedef struct TreeNode {
 	int data;
 	struct TreeNode* left, * right;
@@ -45,13 +44,13 @@ void ArrayPostOrder(int* tree, int i, int index) {
 
 void ArrayOrders(int* tree, int index) {
 	printf("1. Array\n");
-	printf("ÀüÀ§ ¼øÈ¸: ");
+	printf("ì „ìœ„ ìˆœíšŒ: ");
 	ArrayPreOrder(tree, 0, index);
 	printf("\n");
-	printf("ÁßÀ§ ¼øÈ¸: ");
+	printf("ì¤‘ìœ„ ìˆœíšŒ: ");
 	ArrayInOrder(tree, 0, index);
 	printf("\n");
-	printf("ÈÄÀ§ ¼øÈ¸: ");
+	printf("í›„ìœ„ ìˆœíšŒ: ");
 	ArrayPostOrder(tree, 0, index);
 	printf("\n");
 }
@@ -113,13 +112,13 @@ void LinkPostOrder(TreeNode* root) {
 
 void LinkOrders(TreeNode* root) {
 	printf("2. Link\n");
-	printf("ÀüÀ§ ¼øÈ¸: ");
+	printf("ì „ìœ„ ìˆœíšŒ: ");
 	LinkPreOrder(root);
 	printf("\n");
-	printf("ÁßÀ§ ¼øÈ¸: ");
+	printf("ì¤‘ìœ„ ìˆœíšŒ: ");
 	LinkInOrder(root);
 	printf("\n");
-	printf("ÈÄÀ§ ¼øÈ¸: ");
+	printf("í›„ìœ„ ìˆœíšŒ: ");
 	LinkPostOrder(root);
 	printf("\n");
 }
